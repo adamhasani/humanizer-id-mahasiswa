@@ -54,7 +54,7 @@ Buat teks ini terdengar lebih natural dan tidak seperti AI
 
 ## Overview
 
-Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide (maintained by WikiProject AI Cleanup), adapted and extended for Bahasa Indonesia. The skill covers all 24 original English patterns, plus 9 new patterns specific to how AI writes in Indonesian.
+Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide (maintained by WikiProject AI Cleanup), adapted and extended for Bahasa Indonesia. The skill covers all 23 original universal patterns, plus 8 new patterns specific (ID-1 s.d. ID-8) to how AI writes in Indonesian.
 
 > "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
 
@@ -111,11 +111,16 @@ Di luar humanizer dasar, skill ini punya lapisan khusus tugas akademik mahasiswa
 
 ### Indonesian-Specific Patterns
 
-| # | Pattern | Before | After |
-|---|---------|--------|-------|
-| ID-1 | **Bureaucratic filler phrases** | "dalam rangka meningkatkan... guna memastikan... terkait dengan hal tersebut" | "untuk meningkatkan..." |
-| ID-2 | **AI vocabulary in Indonesian** | "holistik, komprehensif, transformatif, tak terbantahkan, berkelanjutan (abstract)" | Kata konkret yang lebih spesifik |
-| ID-3 | **"Tidak hanya... tetapi juga..." overuse** | "Ini tidak hanya X, tetapi juga Y. Bukan sekadar A, melainkan B." | Satu kalimat langsung |
+| # | Pattern | Before (Gaya AI) | After (Natural & Akademis) |
+|---|---------|------------------|----------------------------|
+| ID-1 | **Bureaucratic filler phrases** | "dalam rangka meningkatkan... guna memastikan... sehubungan dengan hal tersebut..." | "untuk meningkatkan...", langsung ke pokok aksi |
+| ID-2 | **AI vocabulary in Indonesian** | "holistik, komprehensif, transformatif, krusial, lanskap, paradigma, sinergi" | Kata lugas: "menyeluruh, penting, kondisi, kerja sama" |
+| ID-3 | **"Tidak hanya... tetapi juga..." overuse** | "Ini tidak hanya X, tetapi juga Y. Tidak hanya itu, ia juga Z." | Kalimat deklaratif alami tanpa antitesis klise berulang |
+| ID-4 | **Transisi awal paragraf klise** | Paragraf diawali: "Selain itu,", "Lebih lanjut,", "Di sisi lain,", "Kendati demikian," | Awali paragraf langsung dengan kalimat topik substantif |
+| ID-5 | **Redundansi pasif formal** | "dapat dikatakan bahwa...", "perlu dicatat bahwa...", "patut dipahami bahwa..." | Nyatakan premis langsung: "Temuan ini menunjukkan bahwa..." |
+| ID-6 | **Slogan moral di kesimpulan** | "Oleh karena itu, marilah kita senantiasa bergandengan tangan demi masa depan..." | Sajikan temuan numerik riil dan limitasi metodologis |
+| ID-7 | **Judul berslogan titik dua** | "Transformasi Digital: Menjembatani Kesenjangan antara Teori dan Praktik" | Judul spesifik mencerminkan objek dan variabel penelitian |
+| ID-8 | **Rentang palsu ("Dari X hingga Y")** | "Mulai dari mahasiswa hingga akademisi, dari hulu ke hilir..." | Sebutkan target populasi/variabel secara terukur |
 
 ---
 

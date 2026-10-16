@@ -483,3 +483,34 @@ rumusan masalah, bukan ringkasan umum; kalimat tidak dibuka angka.
 Skill ini mengadaptasi [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), dikelola oleh WikiProject AI Cleanup, dan diperluas dengan pola AI khas Bahasa Indonesia berdasarkan observasi terhadap ribuan teks berbahasa Indonesia yang dihasilkan AI.
 
 Wawasan kunci: "LLM menggunakan algoritma statistik untuk menebak apa yang harus datang selanjutnya. Hasilnya cenderung ke arah hasil yang paling mungkin secara statistik yang berlaku untuk berbagai kasus seluas mungkin."
+---
+
+## 4 Kaidah Emas Struktur Penulisan Akademik Mahasiswa
+
+Dosen pembimbing dan penguji skripsi/makalah di Indonesia memiliki insting membaca yang terlatih untuk mendeteksi karya ilmiah hasil *generate* AI mentah. Terapkan 4 kaidah struktural ini:
+
+### 1. Segitiga Emas Kesejajaran (Rumusan Masalah ↔ Tujuan ↔ Kesimpulan)
+* Jika di **BAB I Rumusan Masalah** terdapat 3 pertanyaan:
+  1. Bagaimana rancang bangun sistem X?
+  2. Berapa tingkat akurasi model Y terhadap dataset Z?
+  3. Bagaimana kelayakan operasional sistem X di lingkungan kerja?
+* Maka di **BAB I Tujuan Penelitian** WAJIB ada 3 butir yang simetris (1:1).
+* Dan di **BAB V Kesimpulan** WAJIB menjawab ketiga pertanyaan tersebut secara berurutan dan konkret dengan angka temuan (bukan narasi mengambang atau kesimpulan filosofis).
+
+### 2. Struktur Piramida Terbalik Latar Belakang (BAB I)
+* **Tingkat 1 (Makro/Konteks)**: Fakta riil atau regulasi hukum yang mendasari (UU, PP, Permen, atau standar SNI/ISO). HINDARI pembuka klise AI: *"Di era digitalisasi dan globalisasi yang berkembang sangat pesat saat ini..."*.
+* **Tingkat 2 (Meso/Fokus Lapangan)**: Masalah spesifik yang terjadi di instansi/laboratorium/lapangan disertai data kuantitatif awal.
+* **Tingkat 3 (Mikro/Research Gap)**: Keterbatasan riset terdahulu (*state of the art*) atau kegagalan metode sebelumnya dalam menyelesaikan masalah tersebut.
+* **Tingkat 4 (Solusi & Urgensi)**: Metode/gagasan yang diajukan peneliti beserta alasan mengapa metode ini tepat diterapkan.
+
+### 3. Matriks Penelitian Terdahulu (BAB II)
+Mahasiswa asli selalu menyajikan telaah pustaka dalam bentuk **tabel matriks komparasi**:
+* Kolom: No | Peneliti & Tahun | Judul Penelitian | Metode / Algoritma | Hasil / Temuan Utama | Persamaan & Perbedaan (Kebaruan / *Research Gap*)
+* Setelah tabel, tulis 1-2 paragraf sintesis yang menegaskan posisi penelitian ini di antara penelitian-penelitian terdahulu tersebut.
+
+### 4. Pemisahan Tegas Hasil (Empiris) vs Pembahasan (Kritis) di BAB IV
+* **Hasil (Results)**: Menyajikan data objektif (tabel, kurva, nilai rata-rata, persentase, matriks konfusi, nilai *p-value*).
+* **Pembahasan (Discussion)**: BUKAN membaca ulang tabel, melainkan menjawab pertanyaan **"MENGAPA hasilnya demikian?"**:
+  * Apakah hasil ini sejalan atau membantah teori di BAB II?
+  * Bandingkan dengan temuan peneliti terdahulu (*"Hasil ini konsisten dengan temuan Santoso (2022), namun berbeda dari laporan Wijaya (2020) karena perbedaan resolusi sensor..."*).
+  * Apa keterbatasan yang memengaruhi hasil tersebut?
